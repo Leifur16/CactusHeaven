@@ -18,9 +18,9 @@ channel.queue_bind(exchange=exchange_name, queue=email_queue_name, routing_key=c
 
 def send_simple_message(to, subject, body):
     return requests.post(
-        "https://api.mailgun.net/v3/<add-your-domain-here>/messages",
-        auth=("api", "<add-your-api-private-key-here>"),
-        data={"from": "Mailgun Sandbox <postmaster@<add-your-domain-here>>",
+        "https://api.mailgun.net/v3/sandboxfa442949ece345c1ab70cd9e632b3e6a.mailgun.org/messages",
+        auth=("api", "4000bada74b12d39be4f4a2565e43a67-c9270c97-27fd3a86"),
+        data={"from": "Mailgun Sandbox <postmaster@sandboxfa442949ece345c1ab70cd9e632b3e6a.mailgun.org>",
               "to": to,
               "subject": subject,
               "html": body})

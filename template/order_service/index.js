@@ -41,7 +41,7 @@ const configureMessageBroker = channel => {
 
 const multiply = (a, b) => a * b;
 
-const newOrder = item => {
+const newOrder = async item => {
     const order = {};
     order.customerEmail = item.email;
     var arr = item.items;
@@ -51,15 +51,51 @@ const newOrder = item => {
     }
     order.orderDate = new Date();
 
-    Order.create({
-        customerEmail : item.email,
-        totalPrice: order.totalPrice,
-        orderDate: order.orderDate
-    })
+    try {
+        const newOrder = await Order.create({
+            customerEmail : item.email,
+            totalPrice: order.totalPrice,
+            orderDate: order.orderDate
+        })
 
-    return order;
+        newOrderItem(item, newOrder);
+    } catch (error) {
+        throw(error);
+    }
+    
+
+    
 
 };
+
+const newOrderItem = async(order, orderDetails) => {
+   
+    try {
+        const item = {};
+
+        var arr = order.items;
+        item.rowPrice = 0;
+        for(var i = 0; i < arr.length; i++) {
+            item.rowPrice += await multiply(arr[i].quantity, arr[i].unitPrice);
+        }
+        for(var i = 0; i < arr.length; i++) {
+            const newOrder = await OrderItem.create({
+                description : arr[i].description,
+                quantity: arr[i].quantity,
+                unitPrice: arr[i].unitPrice,
+                rowPrice: item.rowPrice,
+                orderId: orderDetails._id
+        
+            })
+        }
+        return newOrder;
+        
+    } catch (error) {
+        throw(error);
+    }  
+}
+
+
 
 (async () => {
     const messageBrokerConnection = await createMessageBrokerConnection();
@@ -76,16 +112,6 @@ const newOrder = item => {
         
         const theOrder = newOrder(dataJson);
         
-        console.log(theOrder);
-        //channel.publish(order, createOrder, new Buffer(JSON.stringify(dataJson)));
-        
-        /*const arrItem = [];
-        arrItem.push(dataJson)
-        
-        const whatWeReturn = {item: arrItem};
-
-        channel.publish(order, createOrder, new Buffer(JSON.stringify(whatWeReturn)));*/
-        
-    }/*, {noAck: true}*/);
+    });
     
 })().catch(e => console.error(e));
