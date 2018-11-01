@@ -4182,23 +4182,23 @@
     ]
   },
   "packageFolders": {
-    "/home/scroopy/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\leifs\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/scroopy/Documents/5th Semester/VEFF/smallAss/CactusHeaven/template/logging_service/loggingService.csproj",
+      "projectUniqueName": "c:\\Users\\leifs\\Documents\\Skoli2018\\VEFT\\Assignments\\SmallAssingment_IV\\CactusHeaven\\template\\logging_service\\loggingService.csproj",
       "projectName": "loggingService",
-      "projectPath": "/home/scroopy/Documents/5th Semester/VEFF/smallAss/CactusHeaven/template/logging_service/loggingService.csproj",
-      "packagesPath": "/home/scroopy/.nuget/packages/",
-      "outputPath": "/home/scroopy/Documents/5th Semester/VEFF/smallAss/CactusHeaven/template/logging_service/obj/",
+      "projectPath": "c:\\Users\\leifs\\Documents\\Skoli2018\\VEFT\\Assignments\\SmallAssingment_IV\\CactusHeaven\\template\\logging_service\\loggingService.csproj",
+      "packagesPath": "C:\\Users\\leifs\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\leifs\\Documents\\Skoli2018\\VEFT\\Assignments\\SmallAssingment_IV\\CactusHeaven\\template\\logging_service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/scroopy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\leifs\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
