@@ -1,0 +1,4 @@
+Log: {"email":"arnarl@ru.is","items":[{"description":"C","quantiti":1,"unitPrice":2000},{"description":"D","quantity":2,"unitprice":3000}]}
+Log: {"email":"arnarl@ru.is","items":[{"description":"C","quantiti":1,"unitPrice":2000},{"description":"D","quantity":2,"unitprice":3000}]}
+Log: {"email":"arnarl@ru.is","items":[{"description":"C","quantiti":1,"unitPrice":2000},{"description":"D","quantity":2,"unitprice":3000}]}
+Log: {"email":"arnarl@ru.is","items":[{"description":"C","quantiti":1,"unitPrice":2000},{"description":"D","quantity":2,"unitprice":3000}]}

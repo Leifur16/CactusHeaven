@@ -2,3 +2,14 @@
 /home/scroopy/Documents/5th Semester/VEFF/smallAss/CactusHeaven/template/logging_service/obj/Debug/netcoreapp2.1/loggingService.csproj.CoreCompileInputs.cache
 /home/scroopy/Documents/5th Semester/VEFF/smallAss/CactusHeaven/template/logging_service/obj/Debug/netcoreapp2.1/loggingService.AssemblyInfoInputs.cache
 /home/scroopy/Documents/5th Semester/VEFF/smallAss/CactusHeaven/template/logging_service/obj/Debug/netcoreapp2.1/loggingService.AssemblyInfo.cs
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\bin\Debug\netcoreapp2.1\loggingService.deps.json
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\bin\Debug\netcoreapp2.1\loggingService.runtimeconfig.json
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\bin\Debug\netcoreapp2.1\loggingService.runtimeconfig.dev.json
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\bin\Debug\netcoreapp2.1\loggingService.dll
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\bin\Debug\netcoreapp2.1\loggingService.pdb
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\obj\Debug\netcoreapp2.1\loggingService.csprojAssemblyReference.cache
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\obj\Debug\netcoreapp2.1\loggingService.csproj.CoreCompileInputs.cache
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\obj\Debug\netcoreapp2.1\loggingService.AssemblyInfoInputs.cache
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\obj\Debug\netcoreapp2.1\loggingService.AssemblyInfo.cs
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\obj\Debug\netcoreapp2.1\loggingService.dll
+C:\Users\leifs\Documents\Skoli2018\VEFT\Assignments\SmallAssingment_IV\CactusHeaven\template\logging_service\obj\Debug\netcoreapp2.1\loggingService.pdb
