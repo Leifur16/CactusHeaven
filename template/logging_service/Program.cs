@@ -1,6 +1,7 @@
-﻿/*using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
+using System.IO;
 using System.Text;
 
 namespace loggingService
@@ -19,7 +20,7 @@ namespace loggingService
                                     autoDelete: false,
                                     arguments: null);
 
-                var consumer = new Event4ingBasicConsumer(channel);
+                var consumer = new EventingBasicConsumer(channel);
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body;
@@ -34,17 +35,15 @@ namespace loggingService
                string[] lines = { "First line", "Second line", "Third line" };
 
                 // Set a variable to the My Documents path.
-                string mydocpath =
-                    Environment.GetFolderPath();
+                //string mydocpath = Environment.GetFolderPath(); thetta a orugglega ad vera 
 
                 // Write the string array to a new file named "WriteLines.txt".
-                using (StreamWriter outputFile = new StreamWriter(Path.Combine(mydocpath,"WriteLines.txt"))) {
+              /*   using (StreamWriter outputFile = new StreamWriter(Path.Combine(mydocpath,"WriteLines.txt"))) {
                     foreach (string line in lines)
                         outputFile.WriteLine(line);
-                }
+                }*/
                 Console.ReadLine();
             }
         }
     }
 }
-*/

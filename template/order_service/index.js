@@ -77,7 +77,7 @@ const newOrder = item => {
         const theOrder = newOrder(dataJson);
         
         console.log(theOrder);
-        channel.publish(order, createOrder, new Buffer(JSON.stringify(dataJson)));
+        //channel.publish(order, createOrder, new Buffer(JSON.stringify(dataJson)));
         
         /*const arrItem = [];
         arrItem.push(dataJson)
